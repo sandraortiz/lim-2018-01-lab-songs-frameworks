@@ -4,16 +4,12 @@ import { Container, Row, Col , Button } from 'mdbreact';
 class Main extends React.Component {
   constructor(props) {
     super(props)
-
-    this.state = {
-      data:[],
+     this.state = {
       index: 0,
       disabledNext: false,
       disabledPrev: false
     }
-
-
-  }
+   }
   
   togglePrev(e) {
     let index = this.state.index - 1;
@@ -54,7 +50,7 @@ render() {
   
 }
 
-function Prev(props) {
+const Prev = (props) => {
   return ( 
     <Container>
     <Row>
@@ -67,7 +63,7 @@ function Prev(props) {
   );
 }
 
-function Next(props) {
+const Next = (props)=> {
   return (
     <Container>
     <Row>
@@ -80,9 +76,7 @@ function Next(props) {
   );
 }
 
-
-
-function Profile(props) {
+const Profile = (props) => {
   const data = [] ;
   fetch(props.songs)
   .then(response =>  response.json() )
