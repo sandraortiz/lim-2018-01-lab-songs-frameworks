@@ -1,0 +1,27 @@
+[
+  
+  {"name":"VIXX",
+  "image" :"https://lastfm-img2.akamaized.net/i/u/300x300/f76ac8ffe92d06c11e73dcc91c27c1f8.png",
+  "songs" : "http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=VIXX&api_key=f36f678dce4b7175b8c9e6e14507ac28&format=json"
+  },
+  
+  {"name":"QUEEN" ,
+    "image" :"https://lastfm-img2.akamaized.net/i/u/300x300/bd3b4dad5ca04c5da7fa22f897bc1cd0.png",
+    "songs" : "http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=QUEEN&api_key=f36f678dce4b7175b8c9e6e14507ac28&format=json"
+}, 
+  
+  {"name":"f(x)" ,
+    "image" :"https://lastfm-img2.akamaized.net/i/u/300x300/7180429e3b478d40de0e1603efbbc7cf.png"
+    ,"songs" : "http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=f(x)&api_key=f36f678dce4b7175b8c9e6e14507ac28&format=json"
+ }, 
+  
+  {"name":"Bruno Mars",
+    "image" :"https://lastfm-img2.akamaized.net/i/u/300x300/8beceb166ec1673eb058ea15f5216925.png",
+    "songs" : "http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=Bruno%20Mars&api_key=f36f678dce4b7175b8c9e6e14507ac28&format=json"
+ },
+ {"name":"Michael Jackson",
+  "image" :"https://lastfm-img2.akamaized.net/i/u/300x300/b67c724c33abc559a472d64995de76db.png",
+  "songs" : "http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=Michael%20Jackson&api_key=f36f678dce4b7175b8c9e6e14507ac28&format=json"
+}
+
+]
