@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "46e48ce0628835f68a7369d0254e4283",
-    "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Light.46e48ce0.ttf"
+    "revision": "3b813c2ae0d04909a33a18d792912ee7",
+    "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Light.3b813c2a.woff"
   },
   {
     "revision": "0f2cd1124cdb04f26659",
@@ -56,20 +56,24 @@ self.__precacheManifest = [
     "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Thin.94998475.ttf"
   },
   {
-    "revision": "69f8a0617ac472f78e45841323a3df9e",
-    "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Light.69f8a061.woff2"
+    "revision": "a990f611f2305dc12965f186c2ef2690",
+    "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Light.a990f611.eot"
   },
   {
-    "revision": "3b813c2ae0d04909a33a18d792912ee7",
-    "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Light.3b813c2a.woff"
+    "revision": "69f8a0617ac472f78e45841323a3df9e",
+    "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Light.69f8a061.woff2"
   },
   {
     "revision": "0f2cd1124cdb04f26659",
     "url": "/lim-2018-01-lab-songs-frameworks/static/js/main.0f2cd112.chunk.js"
   },
   {
-    "revision": "a990f611f2305dc12965f186c2ef2690",
-    "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Light.a990f611.eot"
+    "revision": "ba3dcd8903e3d0af5de7792777f8ae0d",
+    "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Regular.ba3dcd89.woff"
+  },
+  {
+    "revision": "46e48ce0628835f68a7369d0254e4283",
+    "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Light.46e48ce0.ttf"
   },
   {
     "revision": "30799efa5bf74129468ad4e257551dc3",
@@ -80,16 +84,12 @@ self.__precacheManifest = [
     "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Regular.2751ee43.woff2"
   },
   {
-    "revision": "ba3dcd8903e3d0af5de7792777f8ae0d",
-    "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Regular.ba3dcd89.woff"
+    "revision": "df7b648ce5356ea1ebce435b3459fd60",
+    "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Regular.df7b648c.ttf"
   },
   {
     "revision": "4d9f3f9e5195e7b074bb63ba4ce42208",
     "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Medium.4d9f3f9e.eot"
-  },
-  {
-    "revision": "39b2c3031be6b4ea96e2e3e95d307814",
-    "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Bold.39b2c303.woff2"
   },
   {
     "revision": "574fd0b50367f886d359e8264938fc37",
@@ -104,6 +104,10 @@ self.__precacheManifest = [
     "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Medium.894a2ede.ttf"
   },
   {
+    "revision": "ecdd509cadbf1ea78b8d2e31ec52328c",
+    "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Bold.ecdd509c.eot"
+  },
+  {
     "revision": "11911410dca2de148f30954eb2fd5eab",
     "url": "/lim-2018-01-lab-songs-frameworks/static/media/arrow_left.11911410.svg"
   },
@@ -112,16 +116,12 @@ self.__precacheManifest = [
     "url": "/lim-2018-01-lab-songs-frameworks/static/media/arrow_right.8ef6a08c.svg"
   },
   {
-    "revision": "df7b648ce5356ea1ebce435b3459fd60",
-    "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Regular.df7b648c.ttf"
+    "revision": "39b2c3031be6b4ea96e2e3e95d307814",
+    "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Bold.39b2c303.woff2"
   },
   {
     "revision": "dc81817def276b4f21395f7ea5e88dcd",
     "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Bold.dc81817d.woff"
-  },
-  {
-    "revision": "ecdd509cadbf1ea78b8d2e31ec52328c",
-    "url": "/lim-2018-01-lab-songs-frameworks/static/media/Roboto-Bold.ecdd509c.eot"
   },
   {
     "revision": "4ec91a2d1388bcd54f72",
