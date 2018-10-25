@@ -9,8 +9,8 @@ const Songs = (props) => {
   {props.songs.map((note) => {
         return (    
   <ul >
-  <li>{note.name} {note.playcount} </li> 
-
+  <li>{note.name} </li> 
+  <li> {note.playcount} </li> 
  </ul> 
 
        ) })}   
