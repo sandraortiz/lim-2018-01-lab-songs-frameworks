@@ -11,7 +11,7 @@ class App extends React.Component {
       index: 0,
       disabledNext: false,
       disabledPrev: false ,
-   
+      like:0
     }
   }
 
@@ -27,13 +27,13 @@ class App extends React.Component {
         const dataArtist = arrayArtist.map(artist => {
           console.log(artist);
           
-                    return {
+
+           return {
               name:  artist.toptracks.track[0].artist.name,
           image: artist.toptracks.track[0].image[3]['#text'],
-            songs:artist.toptracks.track 
-            
-          
-          }
+            songs:artist.toptracks.track  ,
+              
+               }
         })
         this.setState({
           artists: dataArtist
@@ -42,6 +42,7 @@ class App extends React.Component {
   
 
   }
+ 
   togglePrev(e) {
     let index = this.state.index - 1
     let disabledPrev = false
@@ -68,11 +69,17 @@ class App extends React.Component {
 
 
   like = ( ) => {
-    alert('hola')
-    // const { artists } = this.state 
-  
-    // console.log(artists);
-    
+
+    this.setState({
+      like: this.state.like + 1
+  });
+  } 
+  dislike = ( ) => {
+    if( this.state.like > 0  ) {
+      this.setState({
+      like: this.state.like - 1
+  });
+    }
   } 
   render() {
     const { disabledNext, disabledPrev } = this.state
@@ -94,10 +101,10 @@ class App extends React.Component {
  <div className="d-flex justify-content-center">
  <Button color="elegant" onClick={this.togglePrev.bind(this)} disabled={disabledPrev} ><i class="fas fa-backward"></i></Button>
        <Button color="elegant" onClick={this.toggleNext.bind(this)} disabled={disabledNext}><i class="fas fa-forward"></i></Button>
-    
- </div>
-        
+       {/* <Button color="elegant" onClick={this.like} ><i class="fas fa-forward"> {this.state.like} </i></Button>
+       <Button color="elegant" onClick={this.dislike} ><i class="fas fa-forward">  </i></Button> */}
 
+ </div>
            {/* <button onClick={this.togglePrev.bind(this)} disabled={disabledPrev}>Prev</button>
             <button onClick={this.toggleNext.bind(this)} disabled={disabledNext}>Next</button>
 
@@ -105,7 +112,9 @@ class App extends React.Component {
   {this.state.artists.map((artist) =>
               <Songs
                 songs={artist.songs}
-                likes={this.like}
+                counter = {this.state.like}
+                likes={this.like }
+                dislike = {this.dislike}
                />
 
             )[this.state.index]

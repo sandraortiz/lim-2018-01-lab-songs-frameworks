@@ -1,12 +1,12 @@
 [
-  
+  {
+    "songs" : "https://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=QUEEN&api_key=f36f678dce4b7175b8c9e6e14507ac28&format=json"
+}, 
   {
   "songs" : "https://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=VIXX&api_key=f36f678dce4b7175b8c9e6e14507ac28&format=json"
   },
   
-  {
-    "songs" : "https://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=QUEEN&api_key=f36f678dce4b7175b8c9e6e14507ac28&format=json"
-}, 
+  
   
   {
     "songs" : "https://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=f(x)&api_key=f36f678dce4b7175b8c9e6e14507ac28&format=json"
