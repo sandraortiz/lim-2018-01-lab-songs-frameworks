@@ -1,6 +1,8 @@
 import React from 'react';
 import Lista from './Lista'
 import Songs from './Songs'
+import{Button} from 'mdbreact';
+import './App.css';
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -8,7 +10,8 @@ class App extends React.Component {
       artists: [],
       index: 0,
       disabledNext: false,
-      disabledPrev: false
+      disabledPrev: false ,
+   
     }
   }
 
@@ -62,10 +65,19 @@ class App extends React.Component {
 
     this.setState({ index: index, disabledNext: disabledNext, disabledPrev: false })
   }
+
+
+  like = ( ) => {
+    alert('hola')
+    // const { artists } = this.state 
+  
+    // console.log(artists);
+    
+  } 
   render() {
     const { disabledNext, disabledPrev } = this.state
         return (
-        <div>
+        <div className = "App" > 
           <div>
             
             {this.state.artists.map((artist) =>
@@ -78,14 +90,22 @@ class App extends React.Component {
 
             )[this.state.index]
  }
-<button onClick={this.togglePrev.bind(this)} disabled={disabledPrev}>Prev</button>
+
+ <div className="d-flex justify-content-center">
+ <Button color="elegant" onClick={this.togglePrev.bind(this)} disabled={disabledPrev} ><i class="fas fa-backward"></i></Button>
+       <Button color="elegant" onClick={this.toggleNext.bind(this)} disabled={disabledNext}><i class="fas fa-forward"></i></Button>
+    
+ </div>
+        
+
+           {/* <button onClick={this.togglePrev.bind(this)} disabled={disabledPrev}>Prev</button>
             <button onClick={this.toggleNext.bind(this)} disabled={disabledNext}>Next</button>
 
-  
+   */}
   {this.state.artists.map((artist) =>
               <Songs
                 songs={artist.songs}
-                
+                likes={this.like}
                />
 
             )[this.state.index]
